@@ -17,3 +17,15 @@ body {
 h1, h2 {
     font-family: 'Lyon Arabic', serif;
 }
+@font-face {
+    font-family: 'Lyon-Black';
+    /* جرب كتابة الاسم كاملاً وبدقة وبدون مسافات */
+    src: url('./LyonArabicDisplay-Black.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    /* أضفنا serif لضمان أن المتصفح يبحث عن خطوط مشابهة إذا فشل الأول */
+    font-family: 'Lyon-Black', "Times New Roman", serif;
+}
