@@ -3,8 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تجربة خط Lyon Arabic</title>
-    <link rel="stylesheet" href="style.css">
+    <title> Lyon Arabic Test</title>
+    <style>
+        /* تعريف الخط - تأكد أن الاسم يطابق اسم الملف تماماً */
+        @font-face {
+            font-family: 'Lyon-Black';
+            src: url('LyonArabicDisplay-Black.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        body {
+            font-family: 'Lyon-Black', Arial, sans-serif; /* إذا فشل ليون، سيظهر Arial */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+
+        h1 {
+            font-family: 'Lyon-Black', serif;
+            font-size: 3rem;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.5rem;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
 
