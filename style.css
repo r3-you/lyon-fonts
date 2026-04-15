@@ -1,0 +1,19 @@
+/* تعريف الخط */
+@font-face {
+    font-family: 'Lyon Arabic';
+    src: url('fonts/LyonArabicDisplay-Black.woff2') format('woff2');
+    font-weight: 900; /* Black عادة يكون وزنها 900 */
+    font-style: normal;
+    font-display: swap; /* لتحسين سرعة تحميل الصفحة */
+}
+
+/* تطبيق الخط على الموقع */
+body {
+    font-family: 'Lyon Arabic', sans-serif;
+    direction: rtl; /* لضمان ظهور اللغة العربية بشكل صحيح */
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Lyon Arabic', serif;
+}
